@@ -269,9 +269,81 @@ class _HomePageState extends State<HomePage> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
                 Text(
-                    '3.ในการเลือกตั้ง สส แบบบัญชี'
+                    '3.ในการเลือกตั้ง สส แบบบัญชีรายชื่อ คุณจะเลือกผู็สมัครจากพรรคการเมืองใด'
                 ),
               ],
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคก้าวไกล'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคไทยสร้างไทย'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรครวมไทยสร้างชาติ'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคเพื่อไทย'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคเสรีรวมไทย'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคประชาธิปัตย์'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคภูมิใจไทย'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('พรรคพลังประชารัฐ'),
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.all(4.0),
+              child: OutlinedButton(
+                onPressed: () {
+                },
+                child: const Text('อื่นๆ'),
+              ),
             ),
           ],
         ),
